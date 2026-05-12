@@ -12,18 +12,18 @@ const Hero = () => {
             Data Science Student & Aspiring Analytics Engineer
           </h2>
           <p style={{ fontSize: '1.1rem', color: 'var(--text-secondary)', marginBottom: '2.5rem', maxWidth: '600px' }}>
-            I’m a B.Tech Computer Science (Data Science) student with a strong interest in data analytics and data-driven problem solving. I enjoy preparing, analyzing, and interpreting datasets to derive meaningful insights.
+            Final-year B.Tech Data Science student and <strong>Data Analyst Intern at QualTech Software</strong>, specializing in building and deploying APIs in live production environments. I operate across the <strong>full data stack</strong>—engineering SQL and Python pipelines, developing AI systems, and architecting interactive dashboards. My focus is on leveraging analytical skills to drive high-impact decision-making.
           </p>
           <div className="hero-btns" style={{ display: 'flex', gap: '1rem' }}>
             <a href="#projects" className="btn btn-primary">View Projects</a>
-            <a href="#contact" className="btn" style={{ border: '1px solid var(--border-color)' }}>Get in Touch</a>
+            <a href="#contact" className="btn" style={{ border: '1px solid var(--border-color)' }}>Contact</a>
           </div>
         </div>
         <div className="hero-image" style={{ position: 'relative' }}>
           <div style={{ 
             width: '100%', 
             paddingBottom: '100%', 
-            borderRadius: '2rem', 
+            borderRadius: '2.5rem', 
             overflow: 'hidden',
             boxShadow: 'var(--shadow-lg)'
           }}>
