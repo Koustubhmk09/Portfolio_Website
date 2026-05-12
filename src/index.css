@@ -57,6 +57,10 @@ a {
   transition: all 0.2s ease;
 }
 
+a:hover {
+  color: var(--accent-primary);
+}
+
 ul {
   list-style: none;
 }
@@ -64,6 +68,7 @@ ul {
 img {
   max-width: 100%;
   height: auto;
+  border-radius: 0.75rem;
 }
 
 .container {
@@ -146,10 +151,14 @@ img {
 .nav-link {
   font-weight: 500;
   color: var(--text-secondary);
+  transition: all 0.3s ease;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
 }
 
 .nav-link:hover, .nav-link.active {
   color: var(--accent-primary);
+  background-color: var(--accent-light);
 }
 
 /* Card Base */

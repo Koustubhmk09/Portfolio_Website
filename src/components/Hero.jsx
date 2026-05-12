@@ -23,7 +23,7 @@ const Hero = () => {
           <div style={{ 
             width: '100%', 
             paddingBottom: '100%', 
-            borderRadius: '2.5rem', 
+            borderRadius: '15%', 
             overflow: 'hidden',
             boxShadow: 'var(--shadow-lg)'
           }}>
