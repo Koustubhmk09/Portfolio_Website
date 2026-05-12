@@ -28,7 +28,7 @@ const Hero = () => {
             boxShadow: 'var(--shadow-lg)'
           }}>
             <img 
-              src="/images/kk09.jpeg" 
+              src="images/kk09.jpeg" 
               alt="Koustubh Kulkarni" 
               style={{ 
                 position: 'absolute', 
