@@ -12,7 +12,7 @@ const Navbar = () => {
           <li><a href="#contact" className="nav-link">Contact</a></li>
         </ul>
         <div className="nav-actions">
-           <a href="/backup_old_site/images/Koustubh_Kulkarni_Resume.pdf" target="_blank" className="btn btn-primary" style={{ padding: '0.5rem 1rem', fontSize: '0.9rem' }}>Resume</a>
+           <a href="images/Koustubh_Kulkarni_Resume.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-primary" style={{ padding: '0.5rem 1rem', fontSize: '0.9rem' }}>Resume</a>
         </div>
       </div>
     </nav>
