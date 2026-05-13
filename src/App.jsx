@@ -35,7 +35,7 @@ function App() {
             }}>
                <h3 style={{ fontSize: '2.2rem', marginBottom: '1.5rem', color: 'var(--text-primary)' }}>Let's Start a Conversation</h3>
                <p style={{ color: 'var(--text-secondary)', marginBottom: '3.5rem', fontSize: '1.2rem', maxWidth: '600px', margin: '0 auto 3.5rem' }}>
-                 Whether you have a question or just want to say hi, my inbox is always open. I'll do my best to get back to you as soon as possible!
+                 Interested in working together? Feel free to reach out via email or LinkedIn.
                </p>
                <div style={{ display: 'flex', justifyContent: 'center', gap: '2.5rem', flexWrap: 'wrap' }}>
                  <a href="mailto:koustubh.kulkarni.ds@gmail.com" className="btn btn-outline" style={{ padding: '1.2rem 4rem', fontSize: '1.1rem', minWidth: '220px' }}>Email</a>
