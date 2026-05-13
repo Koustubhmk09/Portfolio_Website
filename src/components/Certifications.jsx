@@ -8,29 +8,29 @@ const Certifications = () => {
         <h2 className="section-title">Certifications</h2>
         <div style={{ 
           display: 'grid', 
-          gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', 
-          gap: '2rem' 
+          gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))', 
+          gap: '2.5rem' 
         }}>
           {certifications.map((cert) => (
-            <div key={cert.id} className="card" style={{ textAlign: 'center', padding: '1rem' }}>
+            <div key={cert.id} className="card" style={{ textAlign: 'center', padding: '1.5rem', display: 'flex', flexDirection: 'column' }}>
               <div style={{ 
                 width: '100%', 
-                height: '240px', 
-                marginBottom: '1rem',
+                height: '220px', 
+                marginBottom: '1.5rem',
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
-                overflow: 'hidden'
+                overflow: 'hidden',
+                backgroundColor: '#f1f5f9',
+                borderRadius: '0.75rem'
               }}>
                 <img 
                   src={cert.image} 
                   alt={cert.title} 
                   style={{ 
-                    maxHeight: '100%', 
-                    maxWidth: '100%', 
-                    objectFit: cert.id === 6 ? 'cover' : 'contain',
-                    objectPosition: cert.id === 6 ? 'top' : 'center',
-                    transform: cert.id === 6 ? 'scale(1.15)' : cert.id === 7 ? 'rotate(90deg) scale(1.45)' : 'none',
+                    maxHeight: '90%', 
+                    maxWidth: '90%', 
+                    objectFit: 'contain',
                     borderRadius: '0.25rem'
                   }}
                 />
