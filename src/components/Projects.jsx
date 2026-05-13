@@ -3,7 +3,7 @@ import { projects } from '../data/projects';
 
 const Projects = () => {
   return (
-    <section id="projects" className="section" style={{ backgroundColor: 'var(--bg-secondary)' }}>
+    <section id="projects" className="section" style={{ backgroundColor: 'var(--bg-secondary)', minHeight: 'calc(100vh - 4.5rem)' }}>
       <div className="container">
         <h2 className="section-title">Projects and Experience</h2>
         <div style={{ 

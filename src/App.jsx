@@ -14,16 +14,18 @@ function App() {
         <Projects />
         <Certifications />
 
-        <section id="contact" className="section" style={{ backgroundColor: 'var(--bg-secondary)' }}>
+        <section id="contact" className="section" style={{ 
+          backgroundColor: 'var(--bg-secondary)', 
+          minHeight: 'calc(100vh - 4.5rem)', 
+          display: 'flex', 
+          alignItems: 'center' 
+        }}>
           <div className="container">
-            <h2 className="section-title">Get In Touch</h2>
-            <div className="card" style={{ maxWidth: '600px', margin: '0 auto', textAlign: 'center' }}>
-               <p style={{ marginBottom: '2rem' }}>
-                 Interested in working together? Feel free to reach out via email or LinkedIn.
-               </p>
+            <h2 className="section-title">Contact</h2>
+            <div className="card" style={{ maxWidth: '400px', margin: '0 auto', textAlign: 'center', border: 'none', background: 'transparent' }}>
                <div style={{ display: 'flex', justifyContent: 'center', gap: '1.5rem' }}>
-                 <a href="mailto:koustubhkulkarni01@gmail.com" className="btn btn-primary">Email Me</a>
-                 <a href="https://www.linkedin.com/in/koustubh-kulkarni-24b298300/" target="_blank" className="btn" style={{ border: '1px solid var(--border-color)' }}>LinkedIn</a>
+                 <a href="mailto:koustubh.kulkarni.ds@gmail.com" className="btn btn-outline" style={{ flex: 1 }}>Email</a>
+                 <a href="https://www.linkedin.com/in/koustubh-kulkarni-24b298300/" target="_blank" rel="noopener noreferrer" className="btn btn-outline" style={{ flex: 1 }}>LinkedIn</a>
                </div>
             </div>
           </div>

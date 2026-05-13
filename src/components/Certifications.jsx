@@ -3,7 +3,7 @@ import { certifications } from '../data/certifications';
 
 const Certifications = () => {
   return (
-    <section id="certifications" className="section">
+    <section id="certifications" className="section" style={{ minHeight: 'calc(100vh - 4.5rem)', display: 'flex', alignItems: 'center' }}>
       <div className="container">
         <h2 className="section-title">Certifications</h2>
         <div style={{ 
@@ -30,7 +30,7 @@ const Certifications = () => {
                     maxWidth: '100%', 
                     objectFit: cert.id === 6 ? 'cover' : 'contain',
                     objectPosition: cert.id === 6 ? 'top' : 'center',
-                    transform: cert.id === 7 ? 'rotate(90deg)' : 'none',
+                    transform: cert.id === 6 ? 'scale(1.15)' : cert.id === 7 ? 'rotate(90deg) scale(1.45)' : 'none',
                     borderRadius: '0.25rem'
                   }}
                 />
