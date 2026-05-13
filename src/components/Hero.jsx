@@ -15,8 +15,7 @@ const Hero = () => {
             Final-year B.Tech Data Science student and <strong>Data Analyst Intern at QualTech Software</strong>, specializing in building and deploying APIs in live production environments. I operate across the <strong>full data stack</strong>—engineering SQL and Python pipelines, developing AI systems, and architecting interactive dashboards. My focus is on leveraging analytical skills to drive high-impact decision-making.
           </p>
           <div className="hero-btns" style={{ display: 'flex', gap: '1rem' }}>
-            <a href="#projects" className="btn btn-primary">View Projects</a>
-            <a href="#contact" className="btn" style={{ border: '1px solid var(--border-color)' }}>Contact</a>
+            <a href="#contact" className="btn btn-primary">Contact</a>
           </div>
         </div>
         <div className="hero-image" style={{ position: 'relative' }}>
