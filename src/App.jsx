@@ -18,26 +18,28 @@ function App() {
           backgroundColor: 'var(--bg-secondary)', 
           minHeight: 'calc(100vh - 4.5rem)', 
           display: 'flex', 
-          alignItems: 'center' 
+          alignItems: 'center',
+          padding: '4rem 1.5rem'
         }}>
           <div className="container" style={{ width: '100%' }}>
             <h2 className="section-title">Contact</h2>
             <div className="card" style={{ 
-              maxWidth: '700px', 
+              maxWidth: '800px', 
               margin: '0 auto', 
-              padding: '4rem 2rem', 
+              padding: '5rem 3rem', 
               textAlign: 'center',
-              backgroundColor: 'var(--bg-primary)',
-              boxShadow: 'var(--shadow-lg)',
-              borderRadius: '2rem'
+              background: 'white',
+              boxShadow: '0 20px 40px rgba(0,0,0,0.05)',
+              borderRadius: '2.5rem',
+              border: '1px solid var(--border-color)'
             }}>
-               <h3 style={{ fontSize: '1.8rem', marginBottom: '1.5rem' }}>Let's Build Something Together</h3>
-               <p style={{ color: 'var(--text-secondary)', marginBottom: '3rem', fontSize: '1.1rem' }}>
-                 I'm always open to discussing new projects, creative ideas or opportunities to be part of your visions.
+               <h3 style={{ fontSize: '2.2rem', marginBottom: '1.5rem', color: 'var(--text-primary)' }}>Let's Start a Conversation</h3>
+               <p style={{ color: 'var(--text-secondary)', marginBottom: '3.5rem', fontSize: '1.2rem', maxWidth: '600px', margin: '0 auto 3.5rem' }}>
+                 Whether you have a question or just want to say hi, my inbox is always open. I'll do my best to get back to you as soon as possible!
                </p>
-               <div style={{ display: 'flex', justifyContent: 'center', gap: '2rem', flexWrap: 'wrap' }}>
-                 <a href="mailto:koustubh.kulkarni.ds@gmail.com" className="btn btn-outline" style={{ padding: '1rem 3rem', minWidth: '180px' }}>Email</a>
-                 <a href="https://www.linkedin.com/in/koustubh-kulkarni-24b298300/" target="_blank" rel="noopener noreferrer" className="btn btn-outline" style={{ padding: '1rem 3rem', minWidth: '180px' }}>LinkedIn</a>
+               <div style={{ display: 'flex', justifyContent: 'center', gap: '2.5rem', flexWrap: 'wrap' }}>
+                 <a href="mailto:koustubh.kulkarni.ds@gmail.com" className="btn btn-outline" style={{ padding: '1.2rem 4rem', fontSize: '1.1rem', minWidth: '220px' }}>Email</a>
+                 <a href="https://www.linkedin.com/in/koustubh-kulkarni-24b298300/" target="_blank" rel="noopener noreferrer" className="btn btn-outline" style={{ padding: '1.2rem 4rem', fontSize: '1.1rem', minWidth: '220px' }}>LinkedIn</a>
                </div>
             </div>
           </div>

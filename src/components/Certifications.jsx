@@ -6,16 +6,12 @@ const Certifications = () => {
     <section id="certifications" className="section" style={{ minHeight: 'calc(100vh - 4.5rem)', display: 'flex', alignItems: 'center' }}>
       <div className="container">
         <h2 className="section-title">Certifications</h2>
-        <div style={{ 
-          display: 'grid', 
-          gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', 
-          gap: '2.5rem' 
-        }}>
+        <div className="cert-grid">
           {certifications.map((cert) => (
-            <div key={cert.id} className="card" style={{ textAlign: 'center', padding: '1rem', display: 'flex', flexDirection: 'column' }}>
+            <div key={cert.id} className="card" style={{ textAlign: 'center', padding: '1.5rem', display: 'flex', flexDirection: 'column' }}>
               <div style={{ 
                 width: '100%', 
-                height: '220px', 
+                height: '200px', 
                 marginBottom: '1.5rem',
                 display: 'flex',
                 alignItems: 'center',
@@ -29,7 +25,6 @@ const Certifications = () => {
                     maxHeight: '100%', 
                     maxWidth: '100%', 
                     objectFit: 'contain',
-                    transform: cert.id === 7 ? 'rotate(90deg)' : 'none',
                     borderRadius: '0.25rem'
                   }}
                 />
