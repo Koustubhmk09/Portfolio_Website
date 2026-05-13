@@ -25,10 +25,18 @@ const Certifications = () => {
                 <img 
                   src={cert.image} 
                   alt={cert.title} 
-                  style={{ maxHeight: '100%', maxWidth: '100%', objectFit: 'contain' }}
+                  style={{ 
+                    maxHeight: '100%', 
+                    maxWidth: '100%', 
+                    objectFit: cert.id === 6 ? 'cover' : 'contain',
+                    objectPosition: cert.id === 6 ? 'top' : 'center',
+                    transform: cert.id === 7 ? 'rotate(90deg)' : 'none',
+                    borderRadius: '0.25rem'
+                  }}
                 />
               </div>
-              <p style={{ fontWeight: '600', color: 'var(--text-primary)' }}>{cert.title}</p>
+              <p style={{ fontWeight: '600', color: 'var(--text-primary)', marginBottom: '0.5rem' }}>{cert.title}</p>
+              <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', lineHeight: '1.4' }}>{cert.description}</p>
             </div>
           ))}
         </div>

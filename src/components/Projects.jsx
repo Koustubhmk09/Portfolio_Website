@@ -74,7 +74,7 @@ const Projects = () => {
                 className="btn btn-primary" 
                 style={{ width: '100%', padding: '0.6rem' }}
               >
-                View Source
+                View Project
               </a>
             </div>
           ))}

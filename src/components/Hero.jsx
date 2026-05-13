@@ -2,7 +2,11 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <section id="about" className="section fade-in" style={{ paddingBottom: '2rem' }}>
+    <section id="about" className="section fade-in" style={{ 
+      minHeight: 'calc(100vh - 4.5rem)', 
+      display: 'flex', 
+      alignItems: 'center' 
+    }}>
       <div className="container" style={{ display: 'grid', gridTemplateColumns: '1.2fr 0.8fr', gap: '4rem', alignItems: 'center' }}>
         <div className="hero-content">
           <h1 style={{ fontSize: '3.5rem', marginBottom: '1.5rem', textAlign: 'left' }}>
